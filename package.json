@@ -1,0 +1,22 @@
+{
+  "name": "@aplauche/image-toolkit",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "",
+  "bin": {
+    "ap-image-toolkit": "./bin/ap-image-toolkit.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.11",
+    "sharp": "^0.32.6"
+  }
+}
