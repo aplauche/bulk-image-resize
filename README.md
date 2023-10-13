@@ -1,16 +1,16 @@
-# @ap/image-toolkit
+# Bulk Image Resize
 
-A quick toolset for rapidly resizing and compressing images to prepare them for usage on the web.
+A quick tool set for rapidly resizing and compressing images to prepare them for usage on the web.
 
 ## Installation
 
-Install globally using
+Install globally using:
 
-`npm install -g @ap/image-toolkit`
+`npm install -g bulk-image-resize`
 
-Or run using npx instead if you prefer.
+Or run directly using if you prefer:
 
-`npx @ap/image-toolkit`
+`npx bulk-image-resize`
 
 ## Features
 
@@ -21,10 +21,10 @@ Or run using npx instead if you prefer.
 
 ## Usage
 
-The idea with this package is a slim tool that can be quickly used to prep files for deployment to a CMS that may have been handed off with incorrect dimensions or scale.
+This package is a slim tool that can be quickly used to prep image files for the web that may have been handed off with incorrect dimensions or scale.
 
 Often developers/content editors get handed huge images in uncompressed formats and it is cumbersome to manually resize and compress each one using image editing software or online tools.
 
-This package acts as a wrapper of the sharp image tools package to allow for quick common use cases like setting all images in a folder to be a specific width (while maintaining their natural aspect ratio) and compressing for the web.
+This package acts as a wrapper of the sharp image tools package for quick, common use cases like setting all images in a folder to be a specific width (while maintaining their natural aspect ratio) and compressing for the web.
 
-Prepare the images you want to process in a directory of your choosing and run `npx @ap/image-toolkit`. The wizard will walk you through the choices of processing options.
+Prepare the images you want to process in a directory of your choosing and run `npx bulk-image-resize`. The wizard will walk you through the choices of available processing options.

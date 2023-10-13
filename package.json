@@ -1,10 +1,10 @@
 {
-  "name": "@aplauche/image-toolkit",
+  "name": "bulk-image-resize",
   "version": "0.1.0",
   "type": "module",
   "description": "",
   "bin": {
-    "ap-image-toolkit": "./bin/ap-image-toolkit.js"
+    "bulk-image-resize": "./bin/index.js"
   },
   "main": "index.js",
   "scripts": {
