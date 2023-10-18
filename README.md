@@ -36,11 +36,12 @@ Prepare the images you want to process in a directory of your choosing and run `
 - Add more verbose logging
 - Add more robust mime-type based file validation
 - minor UI enhancements
+- Change output dir name to "resized-images"
 
 ---
 **v0.1.1** 
 - Change prompts to be more concise 
-- Change output dir name to "full-site-screenshots"
+
 
 ---
 
