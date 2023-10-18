@@ -31,6 +31,12 @@ Prepare the images you want to process in a directory of your choosing and run `
 
 ## Change Log
 
+**v0.2.0** 
+- Add a mode for no resizing, compression only 
+- Add more verbose logging
+- Add tiff and webp to accepted input formats
+
+---
 **v0.1.1** 
 - Change prompts to be more concise 
 - Change output dir name to "full-site-screenshots"
