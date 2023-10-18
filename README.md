@@ -6,11 +6,11 @@ A quick tool set for rapidly resizing and compressing images to prepare them for
 
 Install globally using:
 
-`npm install -g bulk-image-resize`
+```npm install -g bulk-image-resize```
 
 Or run directly using if you prefer:
 
-`npx bulk-image-resize`
+```npx bulk-image-resize```
 
 ## Features
 
@@ -28,3 +28,14 @@ Often developers/content editors get handed huge images in uncompressed formats 
 This package acts as a wrapper of the sharp image tools package for quick, common use cases like setting all images in a folder to be a specific width (while maintaining their natural aspect ratio) and compressing for the web.
 
 Prepare the images you want to process in a directory of your choosing and run `npx bulk-image-resize`. The wizard will walk you through the choices of available processing options.
+
+## Change Log
+
+**v0.1.1** 
+- Change prompts to be more concise 
+- Change output dir name to "full-site-screenshots"
+
+---
+
+**v0.1.0**
+- Initial build
