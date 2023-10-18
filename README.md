@@ -34,7 +34,8 @@ Prepare the images you want to process in a directory of your choosing and run `
 **v0.2.0** 
 - Add a mode for no resizing, compression only 
 - Add more verbose logging
-- Add tiff and webp to accepted input formats
+- Add more robust mime-type based file validation
+- minor UI enhancements
 
 ---
 **v0.1.1** 
