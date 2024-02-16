@@ -1,11 +1,13 @@
+#!/usr/bin/env node
+
 import chalk from 'chalk';
 
-import wizard from './wizard.js';
-import processImages from './processImages.js'
+import wizard from './lib/wizard.js';
+import processImages from './lib/processImages.js'
 
 
 import boxen from 'boxen';
-import handleFlags from './flags.js';
+import handleFlags from './lib/flags.js';
 
 
 async function main() {
