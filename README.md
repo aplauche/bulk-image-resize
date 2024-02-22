@@ -15,7 +15,7 @@ Or run directly using if you prefer:
 ## Features
 
  - Crop to a specified width or height while maintaining aspect ratio
- - Crop to a set asect ratio and use cover or contain strategy to fit
+ - Crop to a set aspect ratio and use cover or contain strategy to fit
  - Compress to desired level
  - Convert to jpeg/webp
 
@@ -31,6 +31,13 @@ Prepare the images you want to process in a directory of your choosing and run `
 
 ## Change Log
 
+**v0.3.0** 
+- Total rework of visual feedback
+- Add help message and support for flags
+- Allow specification of output directory with validation
+- Use smart naming that appends and transformations to filename for easy reference
+
+---
 **v0.2.0** 
 - Add a mode for no resizing, compression only 
 - Add more verbose logging
