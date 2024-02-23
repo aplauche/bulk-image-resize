@@ -1,6 +1,6 @@
 {
   "name": "bulk-image-resize",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "",
   "bin": {
@@ -11,15 +11,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-		"index.js",
-		"lib/*"
-	],
-  "keywords": ["image", "resizer", "compressor"],
+    "index.js",
+    "lib/*"
+  ],
+  "keywords": [
+    "image",
+    "resizer",
+    "compressor"
+  ],
   "author": {
-		"name": "Anton Plauche",
-		"email": "anton@fullstackdigital.io",
-		"url": "https://antonplauche.com"
-	},
+    "name": "Anton Plauche",
+    "email": "anton@fullstackdigital.io",
+    "url": "https://antonplauche.com"
+  },
   "license": "MIT",
   "dependencies": {
     "boxen": "^7.1.1",
